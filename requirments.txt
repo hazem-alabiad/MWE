@@ -1,0 +1,15 @@
+# Data Processing
+conllu>=4.5.3          # Essential for parsing the .cupt format
+pandas>=2.0.0          # For organizing results and error analysis
+numpy>=1.24.0
+
+# LLM Interaction
+openai>=1.0.0          # For GPT-4o or compatible APIs (like Groq/Local servers)
+transformers>=4.40.0   # If running local models (Llama-3-Arabic, AraBERT)
+torch>=2.2.0           # Backend for transformers
+accelerate>=0.29.0     # For efficient local model loading
+
+# Evaluation & Utilities
+scikit-learn>=1.3.0    # For Precision, Recall, and F1 calculations
+tqdm>=4.66.0           # Progress bars for long inference runs
+python-dotenv>=1.0.0   # For managing API keys safely
