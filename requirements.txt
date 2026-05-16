@@ -12,4 +12,10 @@ accelerate>=0.29.0     # For efficient local model loading
 # Evaluation & Utilities
 scikit-learn>=1.3.0    # For Precision, Recall, and F1 calculations
 tqdm>=4.66.0           # Progress bars for long inference runs
+ipywidgets>=8.0.0        # Required for rendering ydata-profiling interactively in Jupyter
 python-dotenv>=1.0.0   # For managing API keys safely
+
+# Visualization
+matplotlib>=3.7.0
+arabic-reshaper>=3.0.0  # For proper Arabic text rendering in plots
+python-bidi>=0.6.0      # For correct RTL text direction in plots

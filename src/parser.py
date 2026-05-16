@@ -30,23 +30,24 @@ def extract_text_from_cupt(file_path):
 
                         if mwe_id not in mwe_map:
                             mwe_map[mwe_id] = {"type": mwe_type, "tokens": []}
-                    
-                    else: 
+
+                    else:
                         mwe_id = part
 
-                    mwe_map[mwe_id]["tokens"].append({
-                        "text": token["form"],
-                        "lemma": token["lemma"],
-                        "index": token["id"]
-                    })
+                    mwe_map[mwe_id]["tokens"].append(
+                        {
+                            "text": token["form"],
+                            "lemma": token["lemma"],
+                            "index": token["id"],
+                            "pos": token["upos"],
+                        }
+                    )
 
-        data.append({
-            "sentence": raw_text,
-            "mwes": list(mwe_map.values())
-        })
+        data.append({"sentence": raw_text, "mwes": list(mwe_map.values())})
     return data
 
-def export_to_jsonl(data, output_path):                         
+
+def export_to_jsonl(data, output_path):
     """Saves the processed list to a JSONL file for LLM use."""
     output_path = Path(output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
