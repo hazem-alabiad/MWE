@@ -2,8 +2,8 @@
 
 ## Introduction and motivation
 
-Arabic has an increadible degree of flexibiility which makes it difficult to analuyze by machines. So far, many of the NLP tasks such as Named Entity Recognition (NER) and continous MWE are solved, we still struggle with discontinous VMWEs.
-In this project, we aim to test and evaluate how accurately  LLM can catch these VMWEs especially when they have lots of intervening words in between (discontinuisity).
+Arabic has an incredible degree of flexibility which makes it difficult to analyze by machines. So far, many of the NLP tasks such as Named Entity Recognition (NER) and continuos MWE are solved, we still struggle with discontinuous VMWEs.
+In this project, we aim to test and evaluate how accurately  LLM can catch these VMWEs especially when they have lots of intervening words in between (discontinuity).
 
 ## Data
 
