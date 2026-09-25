@@ -1,7 +1,7 @@
-import conllu
 import json
-import pandas as pd
 from pathlib import Path
+
+import conllu
 
 
 def extract_text_from_cupt(file_path):
