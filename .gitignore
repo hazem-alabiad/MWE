@@ -5,3 +5,6 @@ data/
 .env
 
 *.pyc
+
+AGENTS.md
+.DS_Store
