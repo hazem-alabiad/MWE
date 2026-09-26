@@ -1,19 +1,22 @@
-# Arabic Verbal Multiword Expressions (VMWEs) and LLMs
+# Evaluating Large Language Models on Discontinuous Arabic Multiword Expressions: A Case Study using PARSEME-AR
 
-## Introduction and motivation
+## Introduction and Motivation
 
-Arabic has an incredible degree of flexibility which makes it difficult to analyze by machines. So far, many of the NLP tasks such as Named Entity Recognition (NER) and continuos MWE are solved, we still struggle with discontinuous VMWEs.
-In this project, we aim to test and evaluate how accurately LLM can catch these VMWEs especially when they have lots of intervening words in between (discontinuity).
+Arabic has an incredible degree of syntactic flexibility which makes it difficult to analyze by machines. While continuous multiword expressions (MWEs) are largely solvable by standard sequence labeling models, discontinuous Verbal MWEs (VMWEs) remain a persistent bottleneck due to long-range syntactic gaps.
+
+In this project, we test and evaluate how accurately modern Large Language Models (LLMs) can extract complex, discontinuous Arabic VMWEs when component tokens are separated by intervening words.
 
 ## Data
 
-PARSEME-AR 1.3
+PARSEME-AR 1.3 (PADT / Universal Dependencies treebank format).
 
 ## Research Questions
 
-1. How well the SOTA LLMs can catch VMWEs in Arabic?
-2. Does the intervening words downgrade the performance of the LLM detecting VMWEs (discontinuity )?
-3. Does providing a few shots help the LLM detect the VMWEs better compared to zero-shot?
+* **RQ1:** How accurately can state-of-the-art LLMs extract complex Arabic verbal expressions (LVCs and VIDs) compared to traditional baseline models?
+* **RQ2:** To what extent does the presence of intervening tokens (discontinuity) degrade the extraction accuracy (F1-score) of these models?
+* **RQ3:** Does providing few-shot, grammatically structured prompts improve the model's ability to handle highly opaque idioms?
+
+For the detailed experimental roadmap and literature benchmarks, see [ROADMAP.md](ROADMAP.md).
 
 ## Setup and usage
 

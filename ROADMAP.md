@@ -1,4 +1,4 @@
-# Project Roadmap & Research Framework
+# Evaluating Large Language Models on Discontinuous Arabic Multiword Expressions: A Case Study using PARSEME-AR
 
 ### **1. Short Project Roadmap**
 
@@ -17,9 +17,9 @@ Your project pipeline moves from dataset parsing to prompt engineering, multi-mo
 * **Primary Project Goal:** Evaluate the capability and limitations of modern Large Language Models in extracting complex, discontinuous Arabic Verbal Multiword Expressions from text without manual syntactic parsing.
 
 * **Key Research Questions:**
-  * **RQ1 (Extraction Accuracy):** How accurately can state-of-the-art generalist LLMs extract complex Arabic verbal expressions (**LVCs** and **VIDs**) compared to open-source and language-specialized baselines?
-  * **RQ2 (Impact of Discontinuity & Gap Size):** To what extent does the presence and length of **intervening tokens (discontinuity)** degrade model F1-scores compared to continuous expressions?
-  * **RQ3 (Prompting & Opacity):** Does providing **few-shot, grammatically structured prompts** improve an LLM’s extraction accuracy on semantically opaque idioms (**VIDs**) versus syntactically predictable light verb constructions (**LVCs**)?
+  * **RQ1:** How accurately can state-of-the-art LLMs extract complex Arabic verbal expressions (LVCs and VIDs) compared to traditional baseline models?
+  * **RQ2:** To what extent does the presence of intervening tokens (discontinuity) degrade the extraction accuracy (F1-score) of these models?
+  * **RQ3:** Does providing few-shot, grammatically structured prompts improve the model's ability to handle highly opaque idioms?
 
 ---
 
