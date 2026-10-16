@@ -12,7 +12,7 @@ PARSEME-AR 1.3 (PADT / Universal Dependencies treebank format).
 
 ## Research Questions
 
-* **RQ1:** How accurately can state-of-the-art LLMs extract complex Arabic verbal expressions (LVCs and VIDs) compared to traditional baseline models?
+* **RQ1:** To what extent can state-of-the-art LLMs accurately identify and categorize Arabic Verbal Multiword Expressions (VMWEs) across all PARSEME categories compared to traditional baseline models?
 * **RQ2:** To what extent does the presence of intervening tokens (discontinuity) degrade the extraction accuracy (F1-score) of these models?
 * **RQ3:** Does providing few-shot, grammatically structured prompts improve the model's ability to handle highly opaque idioms?
 

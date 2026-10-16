@@ -17,7 +17,7 @@ Your project pipeline moves from dataset parsing to prompt engineering, multi-mo
 * **Primary Project Goal:** Evaluate the capability and limitations of modern Large Language Models in extracting complex, discontinuous Arabic Verbal Multiword Expressions from text without manual syntactic parsing.
 
 * **Key Research Questions:**
-  * **RQ1:** How accurately can state-of-the-art LLMs extract complex Arabic verbal expressions (LVCs and VIDs) compared to traditional baseline models?
+  * **RQ1:** To what extent can state-of-the-art LLMs accurately identify and categorize Arabic Verbal Multiword Expressions (VMWEs) across all PARSEME categories compared to traditional baseline models?
   * **RQ2:** To what extent does the presence of intervening tokens (discontinuity) degrade the extraction accuracy (F1-score) of these models?
   * **RQ3:** Does providing few-shot, grammatically structured prompts improve the model's ability to handle highly opaque idioms?
 
